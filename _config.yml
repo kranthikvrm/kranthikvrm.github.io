@@ -16,10 +16,10 @@ timezone: America/New_York
 
 title: Kranthi Kumar # the main title
 
-tagline: SOC Analyst, CTF Player # it will display as the sub-title
+tagline: SOC Analyst, CTF Player, Cybersecurity Enthusiast # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
-  Hello everyone.
+  Hello everyone, I am Kranthi Kumar, cybersecurity enthusiast.
 
 # Fill in the protocol & hostname for your site.
 # e.g. 'https://username.github.io', note that it does not end with a '/'.
