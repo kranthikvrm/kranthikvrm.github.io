@@ -6,6 +6,9 @@ author: Kranthi Kumar
 date: 2016-05-20 11:33:00 +0800
 categories: [Personal expereince]
 tags: [College days, New beginning]
+img_path: /images/personal
+image:
+  path: rgukt-nuzvid.jpg
 pin: true
 math: true
 ---
@@ -18,5 +21,6 @@ One of the great things about RGUKT is that every student receives a laptop, the
 
 In the chemistry labs, when the lab assistant wasn't around, we used to mix different liquids and experimented with them, it was a bit scary, but we did it. Coming to Physical training (PT), It was a bit of a nightmare for us. Everyone should attend morning PT without fail. PT sir would often visit our rooms, and we would rush to the playground straight from bed, sometimes without a shirt!
 
- 
+(brahmi-running.gif)
+
 And I can't forget the last day study struggles before mid exams (We named it "one day batting" as we only open books a day before exams) usually involving group study sessions. My friend Paul used to explain things to me during these sessions.Important detail I forgot to mention—I'm a back-bencher. We used to watch movies during boring lectures. Anyway, we completed our first year with a lot of fun and memories. Only 5 more years to become an engineer!
