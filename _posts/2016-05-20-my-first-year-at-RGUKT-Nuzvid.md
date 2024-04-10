@@ -1,6 +1,6 @@
 ---
 layout: post
-author: Kranthi Kumar
+author: kranthikvrm
 title: New journey - My first year at RGUKT Nuzvid
 description: In this blog post, I am sharing my experiences from my first year at RGUKT Nuzvid, where I experienced new faces, challenges, and exciting opportunities on my journey towards becoming an engineer.
 author: Kranthi Kumar
