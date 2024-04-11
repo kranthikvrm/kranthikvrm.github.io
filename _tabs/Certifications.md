@@ -5,12 +5,6 @@ icon: fas fa-window-maximize
 order: 6
 ---
 <style>
-  body {
-  font-family: Arial, sans-serif;
-  background: #f0f0f0;
-  margin: 0;
-  padding: 20px;
-}
 
 .certification-container {
   display: flex;
