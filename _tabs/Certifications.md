@@ -32,9 +32,9 @@ order: 6
   margin-bottom: 20px;
 }
 
-.card-image.blue { background-color: #007bff; }
-.card-image.red { background-color: #dc3545; }
-.card-image.green { background-color: #28a745; }
+.card-image.blue { background-color: #fff8e4; }
+.card-image.red { background-color: #d8eaf5; }
+.card-image.green { background-color: #d1ffdc; }
 
 .card-title {
   font-size: 18px;
@@ -58,7 +58,11 @@ order: 6
 .card-button:hover {
   background-color: #d32f2f;
 }
-
+img {
+    max-width: 100%;
+    height: 150px;
+    transition: all .35s ease-in-out;
+}
 </style>
 <div class="certification-container">
   <div class="card">
@@ -72,7 +76,7 @@ order: 6
       <img src="../images/aws_cloud.png" alt="AWS Cloud Practitioner">
     </div>
    
-    <button type="button" class="card-button" target="_blank"  onclick="window.open('https://www.credly.com/badges/f0f11634-5abb-405c-8588-40b361ee4d81/linked_in_profile','_blank');">Verify here</button>
+    <button class="card-button" onclick="window.open('https://www.credly.com/badges/f0f11634-5abb-405c-8588-40b361ee4d81/linked_in_profile','_blank');">Verify here</button>
   </div>
   <div class="card">
     <div class="card-image green">
