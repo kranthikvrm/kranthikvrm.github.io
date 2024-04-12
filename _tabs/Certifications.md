@@ -58,7 +58,7 @@ order: 6
 .card-button:hover {
   background-color: #d32f2f;
 }
-img-style {
+.img-style {
     max-width: 100%;
     height: 150px;
     transition: all .35s ease-in-out;
