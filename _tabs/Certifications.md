@@ -72,7 +72,7 @@ order: 6
       <img src="../images/aws_cloud.png" alt="AWS Cloud Practitioner">
     </div>
    
-    <button class="card-button" target="_blank" onclick="https://www.credly.com/badges/f0f11634-5abb-405c-8588-40b361ee4d81/linked_in_profile">Verify here</button>
+    <button type="button" class="card-button" target="_blank"  onclick="window.open('https://www.credly.com/badges/f0f11634-5abb-405c-8588-40b361ee4d81/linked_in_profile','_blank');">Verify here</button>
   </div>
   <div class="card">
     <div class="card-image green">
