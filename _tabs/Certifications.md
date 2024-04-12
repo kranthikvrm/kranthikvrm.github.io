@@ -12,7 +12,8 @@ order: 6
 }
 
 .card {
-  width: 200px;
+  width: 250px;
+  height: 250px;
   border: 2px solid #ccc;
   border-radius: 10px;
   text-align: center;
@@ -45,12 +46,13 @@ order: 6
   background-color: #f44336;
   color: white;
   border: none;
-  border-radius: 5px;
+  border-radius: 9px;
   padding: 10px 20px;
   font-size: 16px;
   cursor: pointer;
   outline: none;
   margin-bottom: 20px;
+  align-self: center;
 }
 
 .card-button:hover {
@@ -64,24 +66,23 @@ order: 6
       <!-- Image goes here -->
       <h2>CEH</h2>
     </div>
-    <p class="card-title">Certified Ethical Hacker</p>
-    <button class="card-button">Click me</button>
+    <button class="card-button">Verify here</button>
   </div>
   <div class="card">
     <div class="card-image red">
       <!-- Image goes here -->
       <h2>CEH MASTER</h2>
     </div>
-    <p class="card-title">Certified Ethical Hacker Master</p>
-    <button class="card-button">Click me</button>
+   
+    <button class="card-button">Verify here</button>
   </div>
   <div class="card">
     <div class="card-image green">
       <!-- Image goes here -->
       <h2>WAHS</h2>
     </div>
-    <p class="card-title">Web App Sec Professional</p>
-    <button class="card-button">Click me</button>
+   
+    <button class="card-button">Verify here</button>
   </div>
 </div>
 
