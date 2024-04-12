@@ -63,23 +63,20 @@ order: 6
 <div class="certification-container">
   <div class="card">
     <div class="card-image blue">
-      <!-- Image goes here -->
-      <h2>CEH</h2>
+      <img src="../images/comptia_security.png">
     </div>
     <button class="card-button">Verify here</button>
   </div>
   <div class="card">
     <div class="card-image red">
-      <!-- Image goes here -->
-      <h2>CEH MASTER</h2>
+      <img src="../images/aws_cloud.png">
     </div>
    
     <button class="card-button">Verify here</button>
   </div>
   <div class="card">
     <div class="card-image green">
-      <!-- Image goes here -->
-      <h2>WAHS</h2>
+      <img src="../images/CEH.png">
     </div>
    
     <button class="card-button">Verify here</button>
