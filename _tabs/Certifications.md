@@ -47,7 +47,7 @@ order: 6
   color: white;
   border: none;
   border-radius: 9px;
-  padding: 10px 20px;
+  padding: 7px 8px;
   font-size: 16px;
   cursor: pointer;
   outline: none;
@@ -58,7 +58,7 @@ order: 6
 .card-button:hover {
   background-color: #d32f2f;
 }
-img {
+img-style {
     max-width: 100%;
     height: 150px;
     transition: all .35s ease-in-out;
@@ -67,23 +67,23 @@ img {
 <div class="certification-container">
   <div class="card">
     <div class="card-image blue">
-      <img src="../images/comptia_security.png" alt="Comptia Security+">
+      <img class="img-style" src="../images/comptia_security.png" alt="Comptia Security+">
     </div>
-    <button class="card-button">Verify here</button>
+   <button class="card-button" onclick="window.open('https://www.credly.com/badges/3b4e1349-6760-4a3e-8635-b5aa177fb2ba','_blank');">Verify here</button>
   </div>
   <div class="card">
     <div class="card-image red">
-      <img src="../images/aws_cloud.png" alt="AWS Cloud Practitioner">
+      <img class="img-style" src="../images/aws_cloud.png" alt="AWS Cloud Practitioner">
     </div>
    
     <button class="card-button" onclick="window.open('https://www.credly.com/badges/f0f11634-5abb-405c-8588-40b361ee4d81/linked_in_profile','_blank');">Verify here</button>
   </div>
   <div class="card">
     <div class="card-image green">
-      <img src="../images/CEH.png" alt="Certified Ethical Hacker">
+      <img class="img-style" src="../images/CEH.png" alt="Certified Ethical Hacker">
     </div>
    
-    <button class="card-button">Verify here</button>
+    <button class="card-button">In Progress</button>
   </div>
 </div>
 
