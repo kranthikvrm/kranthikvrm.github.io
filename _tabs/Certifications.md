@@ -61,9 +61,11 @@ order: 6
 .img-style {
     max-width: 100%;
     height: 150px;
-    transition: all .35s ease-in-out;
 }
+  
 </style>
+
+<h3>I have obtained the following certifications</h3>
 <div class="certification-container">
   <div class="card">
     <div class="card-image blue">
