@@ -63,20 +63,20 @@ order: 6
 <div class="certification-container">
   <div class="card">
     <div class="card-image blue">
-      <img src="../images/comptia_security.png">
+      <img src="../images/comptia_security.png" alt="Comptia Security+">
     </div>
     <button class="card-button">Verify here</button>
   </div>
   <div class="card">
     <div class="card-image red">
-      <img src="../images/aws_cloud.png">
+      <img src="../images/aws_cloud.png" alt="AWS Cloud Practitioner">
     </div>
    
-    <button class="card-button">Verify here</button>
+    <button class="card-button" target="_blank" onclick="https://www.credly.com/badges/f0f11634-5abb-405c-8588-40b361ee4d81/linked_in_profile">Verify here</button>
   </div>
   <div class="card">
     <div class="card-image green">
-      <img src="../images/CEH.png">
+      <img src="../images/CEH.png" alt="Certified Ethical Hacker">
     </div>
    
     <button class="card-button">Verify here</button>
