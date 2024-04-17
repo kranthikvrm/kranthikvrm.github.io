@@ -5,13 +5,12 @@ title: IDOR bug leads to sensitive information leak
 description: In this blog post, I am sharing my experiences from my first year at RGUKT Nuzvid, where I experienced new faces, challenges, and exciting opportunities on my journey towards becoming an engineer.
 author: Kranthi Kumar
 date: 2023-08-24 08:13:00 +0800
-categories: [Personal expereince]
-tags: [College days, New beginning]
+categories: [CTF, Bug Bounty]
+tags: [CTF, Bug Bounty]
 img_path: /images/personal
 image:
   path: rgukt-nuzvid.jpg
 pin: true
-math: true
 ---
 
 Hey, hi buddy! I'm Kranthi Kumar, and this is my very first blog post, so go easy on me if you find any mistakes. To start with, I completed my 10th grade in my village Kesavaram and got a seat at RGUKT Nuzvid for a 6-year integrated program covering 11th, 12th, and Engineering. I'm writing this post at the end of my first year at RGUKT. I've just started my journey here at RGUKT (IIIT Nuzvid), surrounded by new faces and big buildings, everything is fresh and exciting. I've made new friends and they are from different parts of the state, That's interesting! 
