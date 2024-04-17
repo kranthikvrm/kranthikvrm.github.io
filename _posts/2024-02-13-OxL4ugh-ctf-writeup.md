@@ -40,7 +40,7 @@ Following the HTTP stream gave us the server and php version information.
 ![server version found](2.png)
 
 So the flag is `0xL4ugh{192.168.204.128_192.168.204.132_apache2.4.58_php8.2.12}`
-___________________________________________________________________________
+
 
 ## Challenge 2: WordPress - 2 [Medium]
 ```
@@ -101,7 +101,9 @@ Q3. What is the version of the vulnerable plugin, and what is the CVE number ass
 
 Flag Format: 0xL4ugh{A1_A2_A3}
 
-Example: 0xL4ugh{tool1_tool2_C2_PluginName_1.2.3_CVE--} ```
+Example: 0xL4ugh{tool1_tool2_C2_PluginName_1.2.3_CVE--}
+
+```
 
 <b>My approach:</b>
 
