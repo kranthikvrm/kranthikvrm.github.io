@@ -7,9 +7,9 @@ author: Kranthi Kumar
 date: 2023-12-20 09:21:00 +0800
 categories: [Projects]
 tags: [CTF, Projects]
-img_path: /images/personal
+img_path: /images
 image:
-  path: rgukt-nuzvid.jpg
+  path: cyber_report.jpg
 pin: true
 math: true
 ---
