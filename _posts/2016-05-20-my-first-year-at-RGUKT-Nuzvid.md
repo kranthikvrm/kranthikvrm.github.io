@@ -10,8 +10,6 @@ tags: [College days, New beginning]
 img_path: /images/personal
 image:
   path: rgukt-nuzvid.jpg
-pin: true
-math: true
 ---
 
 Hey, hi buddy! I'm Kranthi Kumar, and this is my very first blog post, so go easy on me if you find any mistakes. To start with, I completed my 10th grade in my village Kesavaram and got a seat at RGUKT Nuzvid for a 6-year integrated program covering 11th, 12th, and Engineering. I'm writing this post at the end of my first year at RGUKT. I've just started my journey here at RGUKT (IIIT Nuzvid), surrounded by new faces and big buildings, everything is fresh and exciting. I've made new friends and they are from different parts of the state, That's interesting! 
