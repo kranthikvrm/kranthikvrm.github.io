@@ -4,9 +4,9 @@ author: kranthikvrm
 title: CyberCompetition Report - Penetration Testing Course
 description: In this blog post, I am sharing my experiences from my first year at RGUKT Nuzvid, where I experienced new faces, challenges, and exciting opportunities on my journey towards becoming an engineer.
 author: Kranthi Kumar
-date: 2016-05-20 11:33:00 +0800
-categories: [Personal expereince]
-tags: [College days, New beginning]
+date: 2023-12-20 09:21:00 +0800
+categories: [Projects]
+tags: [CTF, Projects]
 img_path: /images/personal
 image:
   path: rgukt-nuzvid.jpg
