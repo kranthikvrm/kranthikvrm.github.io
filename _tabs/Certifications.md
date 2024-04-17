@@ -65,7 +65,8 @@ order: 6
   
 </style>
 
-<h3>I have obtained the following certifications</h3>
+> I have obtained the following certifications. {: .prompt-info }
+
 <div class="certification-container">
   <div class="card">
     <div class="card-image blue">
