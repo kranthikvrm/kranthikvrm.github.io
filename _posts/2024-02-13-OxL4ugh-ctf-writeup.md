@@ -1,7 +1,7 @@
 ---
 layout: post
 author: kranthikvrm
-title: CTF Writeup - 0xL4ugh CTF 2024 (PCAP Analysis)
+title: 0xL4ugh CTF 2024 (PCAP Analysis) - Writeup
 description: In this blog post, I am sharing my experiences from my first year at RGUKT Nuzvid, where I experienced new faces, challenges, and exciting opportunities on my journey towards becoming an engineer.
 date: 2024-02-13 07:43:00 +0800
 categories: [CTF Writeups]
