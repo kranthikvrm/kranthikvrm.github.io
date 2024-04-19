@@ -7,7 +7,7 @@ author: Kranthi Kumar
 date: 2022-12-13 02:34:00 +0800
 categories: [Perosnal Experience]
 tags: [SOC Analyst, SOC]
-img_path: /images/qualyshomelab
+img_path: /images
 image:
   path: soc_experience.jpg
 pin: true
