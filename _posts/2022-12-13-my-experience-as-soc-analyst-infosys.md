@@ -13,7 +13,7 @@ image:
 pin: true
 ---
 
-Hey, Hi, I am Kranthi Kumar. In this blog post, I will share my experience working in the SOC, what I did, how I learned things, the timings, and how it feels. You can read more about me here.
+Hey, Hi, I am Kranthi Kumar. In this blog post, I will share my experience working in the SOC, what I did, how I learned things, the timings, and how it feels. You can read more <a href="https://www.kranthikumar.net/about/">about me here</a>.
 
 SOC is the first line of defense for a company, so people working in SOC should be careful because sometimes it may affect the entire company if they leave something without proper analysis.
 
