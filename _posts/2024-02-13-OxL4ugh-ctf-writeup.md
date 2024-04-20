@@ -35,7 +35,7 @@ First things first, I filtered out `http.request traffic` to get a lead. I obser
 
 So, Q1 victim IP: 192.168.204.128  and attacker IP: 192.168.204.132
 
-Following the HTTP stream gave us the server and php version information.
+Following the HTTP stream gave me the server and php version information.
 
 ![server version found](2.png)
 
