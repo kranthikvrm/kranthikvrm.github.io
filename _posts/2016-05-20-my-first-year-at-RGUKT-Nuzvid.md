@@ -5,7 +5,7 @@ title: New journey - My first year of college at RGUKT Nuzvid
 description: In this blog post, I am sharing my experiences from my first year at RGUKT Nuzvid, where I experienced new faces, challenges, and exciting opportunities on my journey towards becoming an engineer.
 author: Kranthi Kumar
 date: 2016-05-20 11:33:00 +0800
-categories: [Personal expereince]
+categories: [Personal experience]
 tags: [College days, New beginning]
 img_path: /images/personal
 image:
