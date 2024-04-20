@@ -5,7 +5,7 @@ title: End of my Intermediate college - Beginning of Engineering (Computer Scien
 description: In this blog post, I am sharing my experiences from my first year at RGUKT Nuzvid, where I experienced new faces, challenges, and exciting opportunities on my journey towards becoming an engineer.
 author: Kranthi Kumar
 date: 2017-07-12 10:28:00 +0800
-categories: [Personal expereince]
+categories: [Personal experience]
 tags: [College days, New beginning]
 img_path: /images/personal
 image:
