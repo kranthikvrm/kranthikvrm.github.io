@@ -80,7 +80,7 @@ So for sure, the second parameter is the password that the attacker used. I saw 
 
 `(ip.dst == 192.168.204.132) && !(xml.cdata == "403") && (_ws.col.protocol == "HTTP/XML")`
 
-The above filter or query, (ip.dst == 192.168.204.132): This part filters packets where the destination IP address is 192.168.204.132 and !(xml.cdata == "403") this part selects packets where the XML data field (xml.cdata) is not equal to "403". So, it excludes packets containing XML data equal to "403" and (_ws.col.protocol == "HTTP/XML"), this part filters packets where the protocol in the Wireshark column is "HTTP/XML".
+> The above filter or query, (ip.dst == 192.168.204.132): This part filters packets where the destination IP address is 192.168.204.132 and !(xml.cdata == "403") this part selects packets where the XML data field (xml.cdata) is not equal to "403". So, it excludes packets containing XML data equal to "403" and (_ws.col.protocol == "HTTP/XML"), this part filters packets where the protocol in the Wireshark column is "HTTP/XML".
 
 I analyzed all the filtered packets, and the packet 147357 response says that the login successful. I found it by following the HTTP stream.
 ![brute force attempts -2](3.2.png)
