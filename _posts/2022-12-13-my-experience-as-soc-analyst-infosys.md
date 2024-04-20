@@ -23,11 +23,11 @@ After my Bachelor of Technology (BTech) in Computer Science, I received an offer
 
 ## Training or KT
 
-Initially, I received KT (Knowledge Transfer) from my team lead and other team members, similar to training sessions. As days passed, I became friends with PremChand; he is one of the good friends I can talk to without any hesitation. In security there is nothing static, things change very often, and we should learn every day and ask questions too.
+Initially, I received KT (Knowledge Transfer) from my team lead and other team members, similar to training sessions. As days passed, I became friends with PremChand, he is one of the good friends I can talk to without any hesitation. In security there is nothing static, things change very often, and we should learn every day and ask questions too.
 
 ## Daily routine - A typical day in SOC
 
-With training from team members, I started working. I believe those who want to get into SOC know about SIEM, so we used Splunk from our client and mostly IBM Qradar as a SIEM tool. Here, we can check for malware alerts, phishing email alerts, information leaks, brute force attacks, failed logins, and many more.
+With training from team members, I started working, and I believe those who want to get into SOC know about SIEM, so not need to elaborate about it. we used Splunk from our client (cilent gave us) and mostly IBM Qradar as a SIEM tool (from Infosys side). With SIEM, we can check for malware alerts, phishing email alerts, information leaks, brute force attacks, failed logins, and many more.
 
 Once an alert is seen, according to the work environment, we assign tickets to work on. 
 
@@ -87,3 +87,5 @@ In day-to-day activities, we use VirusTotal to check for IOCs of files, AbuseIP 
 Finally, as a SOC Analyst at Infosys, I learned a lot about blue teaming, security working culture, and corporate management. We have to do rotational shifts to fulfill the work requirements and keep learning and upgrading every time we encounter something new. Make friends to support you and have fun wherever you go.
 
 Thank you for reading, my digital warriors!!!
+
+If You have any queries or thoughts, then feel free to share them with me on <a href="https://www.linkedin.com/in/kranthi-kumar-manda/">LinkedIn</a>.
