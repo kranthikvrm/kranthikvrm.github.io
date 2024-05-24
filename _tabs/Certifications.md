@@ -87,7 +87,7 @@ order: 6
       <img class="img-style" src="../images/CEH.png" alt="Certified Ethical Hacker">
     </div>
    
-    <button class="card-button">In Progress</button>
+    <button class="card-button" onclick="window.open('https://aspen.eccouncil.org/VerifyBadge?type=certification&a=+jtC1rmIGRQ59A9ptMSepVzUy/bXd4CnpZaHrUaEOoo=','_blank');">Verify here</button>
   </div>
 </div>
 
