@@ -1,10 +1,12 @@
 ---
 layout: post
+author: kranthikvrm
 title: From turkey to tech: How Thanksgiving teaches us about cybersecurity
 description: This blog is a fun comparison between Thanksgiving and cybersecurity, showing how both are about protecting what matters most.
 author: Kranthi Kumar
 date: 2024-11-28 11:33:00 +0800
-tags: [Cybersecurity, Thanksgiving]
+categories: [Home Lab, Projects]
+tags: [Qualys, Vulnerability management, Projects, Cybersecurity, Thanksgiving]
 img_path: /images/qualyshomelab
 image:
   path: qual.jpg
