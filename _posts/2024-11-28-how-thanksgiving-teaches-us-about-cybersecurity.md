@@ -4,7 +4,6 @@ title: From turkey to tech: How Thanksgiving teaches us about cybersecurity
 description: This blog is a fun comparison between Thanksgiving and cybersecurity, showing how both are about protecting what matters most.
 author: Kranthi Kumar
 date: 2024-11-28 11:33:00 +0800
-categories: [Cybersecurity]
 tags: [Cybersecurity, Thanksgiving]
 ---
 
