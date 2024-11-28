@@ -1,6 +1,5 @@
 ---
 layout: post
-author: kranthikvrm
 title: From turkey to tech: How Thanksgiving teaches us aboutcCybersecurity
 description: This blog is a fun comparison between Thanksgiving and cybersecurity, showing how both are about protecting what matters most.
 author: Kranthi Kumar
