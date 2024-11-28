@@ -5,6 +5,10 @@ description: This blog is a fun comparison between Thanksgiving and cybersecurit
 author: Kranthi Kumar
 date: 2024-11-28 11:33:00 +0800
 tags: [Cybersecurity, Thanksgiving]
+img_path: /images/qualyshomelab
+image:
+  path: qual.jpg
+pin: true
 ---
 
 Thanksgiving is a time for food, family, and moments of gratitude. But as you navigate through turkey dinners and awkward small talk with relatives, have you ever noticed how much this holiday has in common with cybersecurity? It might sound strange, but protecting your data and surviving Thanksgiving both require preparation, awareness, and handling the unexpected.
