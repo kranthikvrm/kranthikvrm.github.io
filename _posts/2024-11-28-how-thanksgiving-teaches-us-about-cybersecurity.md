@@ -28,23 +28,23 @@ Uncle Bob always shows up with unsolicited advice or tall tales that no one aske
 
 Aunt Mary swears she met a celebrity in the grocery store, but her story doesn’t quite add up. Phishing scams also seem exciting “You’ve won a $500 gift card!” but a closer look reveals the truth. If it sounds too good to be true, it probably is.
 
-## Family seating chart = Access controls
+### Family seating chart = Access controls
 
 A carefully planned seating chart avoids drama by keeping clashing personalities apart. Similarly, access controls in cybersecurity ensure that only the right people have access to sensitive information. Both are essential to keeping things peaceful and secure.
 
-## The “Did You Make This?” test is like checking HTTPS
+### The “Did You Make This?” test is like checking HTTPS
 
 When someone brings a dish to Thanksgiving, you always ask, “Did you make this?” because you need to know if it’s trustworthy. In the digital world, this is like checking if a website has HTTPS. If it doesn’t have that reassuring little lock icon, proceed with caution.
 
-## Someone ate all the pie = A data breach
+### Someone ate all the pie = A data breach
 
 You’ve been eyeing that pie all night, only to find out someone beat you to it. A data breach feels just as devastating, valuable resources stolen before you even got the chance to enjoy them. Protect your data (and your desserts) to avoid disappointment.
 
-## Malware is the cousin who brings nothing and takes everything
+### Malware is the cousin who brings nothing and takes everything
 
 We all know that one cousin who shows up empty handed, piles their plate high, and then “takes a little extra for later.” Malware operates in much the same way. It sneaks in unnoticed, drains your resources, and leaves chaos in its wake. Maybe it’s time to stop letting them in.
 
-## Gratitude = The best defense
+### Gratitude = The best defense
 
 Finally, Thanksgiving is a time for gratitude, and cybersecurity deserves a little thanks too. Appreciate the IT professionals, antivirus software, and best practices that keep your digital life secure. And while you’re at it, thank yourself for being watchful, whether it’s protecting your data or guarding your slice of pumpkin pie.
 
